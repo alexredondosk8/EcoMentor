@@ -1,3 +1,5 @@
+import streamlit as st
+
 st.markdown(
     """
     <div style='text-align: center;'>
