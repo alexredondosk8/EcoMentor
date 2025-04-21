@@ -9,3 +9,6 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+
+pg = st.navigation([st.Page("pages/a_page.py"), st.Page("streamlit_app.py")])
+pg.run()
